@@ -1,0 +1,452 @@
+[
+  {
+    "skill": "Docker",
+    "title": "Docker for Beginners",
+    "description": "A comprehensive guide to learning containerization fundamentals from scratch.",
+    "url": "https://docs.docker.com/get-started/"
+  },
+  {
+    "skill": "Docker",
+    "title": "Docker Architecture Deep Dive",
+    "description": "Understanding the Docker daemon, client, images, containers, and registries.",
+    "url": "https://docs.docker.com/engine/introduction/"
+  },
+  {
+    "skill": "Docker",
+    "title": "Dockerfile Best Practices",
+    "description": "Official recommendations for writing clean, efficient, and secure Dockerfiles.",
+    "url": "https://docs.docker.com/develop/develop-images/dockerfile_best-practices/"
+  },
+  {
+    "skill": "Docker",
+    "title": "Docker Compose Multi-Container Orchestration",
+    "description": "Learn how to define and run multi-container Docker applications seamlessly.",
+    "url": "https://docs.docker.com/compose/"
+  },
+  {
+    "skill": "Docker",
+    "title": "Docker Networking In-Depth",
+    "description": "How container networking works, including bridge, host, overlay, and macvlan drivers.",
+    "url": "https://docs.docker.com/engine/network/"
+  },
+  {
+    "skill": "LangChain",
+    "title": "LangChain Documentation",
+    "description": "Official documentation to build production-ready LLM applications and agents.",
+    "url": "https://python.langchain.com/docs/get_started/introduction"
+  },
+  {
+    "skill": "LangChain",
+    "title": "LangChain Expression Language (LCEL)",
+    "description": "A declarative way to easily compose chains together for LLM orchestration.",
+    "url": "https://python.langchain.com/docs/concepts/#langchain-expression-language-lcel"
+  },
+  {
+    "skill": "LangChain",
+    "title": "LangGraph for Agentic Workflows",
+    "description": "Building stateful, multi-actor applications with LLMs using graph structures.",
+    "url": "https://langchain-ai.github.io/langgraph/"
+  },
+  {
+    "skill": "LangChain",
+    "title": "LangChain Memory Management",
+    "description": "How to persist state and conversation history in complex LLM chains.",
+    "url": "https://python.langchain.com/docs/modules/memory/"
+  },
+  {
+    "skill": "LangChain",
+    "title": "LangChain Evaluation Guide",
+    "description": "Methods and tools to measure the performance and accuracy of LLM applications.",
+    "url": "https://python.langchain.com/docs/guides/evaluation/"
+  },
+  {
+    "skill": "Kubernetes",
+    "title": "Kubernetes Basics",
+    "description": "Interactive tutorials covering deployment, scaling, configuration, and orchestration.",
+    "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/"
+  },
+  {
+    "skill": "Kubernetes",
+    "title": "Kubernetes Architecture & Components",
+    "description": "An overview of the control plane, worker nodes, kubelet, and etcd.",
+    "url": "https://kubernetes.io/docs/concepts/overview/components/"
+  },
+  {
+    "skill": "Kubernetes",
+    "title": "Understanding Kubernetes Pods",
+    "description": "The smallest deployable units of computing that you can create and manage in Kubernetes.",
+    "url": "https://kubernetes.io/docs/concepts/workloads/pods/"
+  },
+  {
+    "skill": "Kubernetes",
+    "title": "Kubernetes Deployments & Scaling",
+    "description": "How to manage declarative updates for Pods and ReplicaSets automatically.",
+    "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/"
+  },
+  {
+    "skill": "Kubernetes",
+    "title": "Kubernetes Services & Networking",
+    "description": "An abstract way to expose an application running on a set of Pods as a network service.",
+    "url": "https://kubernetes.io/docs/concepts/services-networking/"
+  },
+  {
+    "skill": "RAG",
+    "title": "Retrieval-Augmented Generation (RAG) Explained",
+    "description": "The foundational concept of combining external knowledge retrieval with generation.",
+    "url": "https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/"
+  },
+  {
+    "skill": "RAG",
+    "title": "Advanced RAG Techniques",
+    "description": "An overview of pre-retrieval, retrieval, and post-retrieval optimization strategies.",
+    "url": "https://arxiv.org/abs/2312.10997"
+  },
+  {
+    "skill": "RAG",
+    "title": "Evaluating RAG Pipelines with Ragas",
+    "description": "A framework that helps you evaluate your Retrieval Augmented Generation pipelines.",
+    "url": "https://docs.ragas.io/en/stable/"
+  },
+  {
+    "skill": "RAG",
+    "title": "Chunking Strategies for RAG",
+    "description": "How to split text into optimal dimensions for semantic search retrieval.",
+    "url": "https://www.pinecone.io/learn/chunking-strategies/"
+  },
+  {
+    "skill": "RAG",
+    "title": "Hybrid Search in RAG Systems",
+    "description": "Combining dense vector embeddings with sparse keyword search (BM25) for better accuracy.",
+    "url": "https://qdrant.tech/articles/hybrid-search/"
+  },
+  {
+    "skill": "LLMs",
+    "title": "Attention Is All You Need",
+    "description": "The seminal research paper introducing the Transformer architecture powering modern LLMs.",
+    "url": "https://arxiv.org/abs/1706.03762"
+  },
+  {
+    "skill": "LLMs",
+    "title": "Hugging Face Transformers Documentation",
+    "description": "The go-to library for downloading, training, and deploying open-source LLMs.",
+    "url": "https://huggingface.co/docs/transformers/index"
+  },
+  {
+    "skill": "LLMs",
+    "title": "LLM Fine-Tuning Guide (LoRA/QLoRA)",
+    "description": "How to efficiently fine-tune massive language models using parameter-efficient methods.",
+    "url": "https://huggingface.co/docs/peft/index"
+  },
+  {
+    "skill": "LLMs",
+    "title": "Quantization Deep Dive (GGUF & AWQ)",
+    "description": "Techniques for compressing LLMs to run efficiently on consumer hardware and edge devices.",
+    "url": "https://huggingface.co/docs/transformers/main_classes/quantization"
+  },
+  {
+    "skill": "LLMs",
+    "title": "vLLM: High-Throughput LLM Serving",
+    "description": "An ultra-fast LLM serving engine utilizing PagedAttention mechanics.",
+    "url": "https://docs.vllm.ai/en/latest/"
+  },
+  {
+    "skill": "Prompt Engineering",
+    "title": "Prompt Engineering Guide",
+    "description": "Comprehensive papers, guides, and courses on effective prompt engineering techniques.",
+    "url": "https://www.promptingguide.ai/"
+  },
+  {
+    "skill": "Prompt Engineering",
+    "title": "Chain-of-Thought Prompting Explained",
+    "description": "Eliciting complex reasoning capabilities in large language models through structured steps.",
+    "url": "https://arxiv.org/abs/2201.11903"
+  },
+  {
+    "skill": "Prompt Engineering",
+    "title": "ReAct: Synergizing Reasoning and Acting",
+    "description": "Using LLMs to generate both reasoning traces and task-specific actions dynamically.",
+    "url": "https://arxiv.org/abs/2210.03629"
+  },
+  {
+    "skill": "Prompt Engineering",
+    "title": "OpenAI Prompt Engineering Best Practices",
+    "description": "Official instructions and optimization strategies directly from OpenAI developers.",
+    "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+  },
+  {
+    "skill": "Prompt Engineering",
+    "title": "Few-Shot and Zero-Shot In-Context Learning",
+    "description": "A structural approach to preparing context examples to steer LLM responses.",
+    "url": "https://www.analyticsvidhya.com/blog/2023/09/zero-shot-and-few-shot-prompting/"
+  },
+  {
+    "skill": "Vector Databases",
+    "title": "Qdrant Documentation Overview",
+    "description": "Vector similarity search engine and database production deployment guide.",
+    "url": "https://qdrant.tech/documentation/"
+  },
+  {
+    "skill": "Vector Databases",
+    "title": "Hierarchical Navigable Small World (HNSW)",
+    "description": "Understanding the core approximate nearest neighbor graph algorithm used in vector DBs.",
+    "url": "https://arxiv.org/abs/1603.09320"
+  },
+  {
+    "skill": "Vector Databases",
+    "title": "Vector Indexing and Quantization (IVF-PQ)",
+    "description": "How Inverted File Indexing and Product Quantization reduce vector database memory usage.",
+    "url": "https://qdrant.tech/articles/vector-quantization/"
+  },
+  {
+    "skill": "Vector Databases",
+    "title": "Filtering and Payload Architecture",
+    "description": "How to execute precise metadata filtering on vectors without losing search performance.",
+    "url": "https://qdrant.tech/documentation/concepts/filtering/"
+  },
+  {
+    "skill": "Vector Databases",
+    "title": "Vector Search vs Keyword Search",
+    "description": "A comparative guide showcasing dense vector semantic search against classic lexical engines.",
+    "url": "https://qdrant.tech/articles/vector-search-vs-keyword-search/"
+  },
+  {
+    "skill": "System Design",
+    "title": "System Design Primer",
+    "description": "An open-source roadmap for learning how to design large-scale, high-availability systems.",
+    "url": "https://github.com/donnemartin/system-design-primer"
+  },
+  {
+    "skill": "System Design",
+    "title": "Microservices Architecture Guide",
+    "description": "Patterns, benefits, and challenges of structuring applications as microservices.",
+    "url": "https://microservices.io/"
+  },
+  {
+    "skill": "System Design",
+    "title": "Designing Data-Intensive Applications Summary",
+    "description": "Core concepts regarding data storage, processing, replication, and partitioning.",
+    "url": "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/"
+  },
+  {
+    "skill": "System Design",
+    "title": "Horizontal vs Vertical Scaling",
+    "description": "Evaluating performance differences between adding resources to one machine vs adding more nodes.",
+    "url": "https://www.digitalocean.com/community/conceptual-articles/horizontal-vs-vertical-scaling"
+  },
+  {
+    "skill": "System Design",
+    "title": "Load Balancing Algorithms and Strategies",
+    "description": "How reverse proxies distribute traffic efficiently across backend application fleets.",
+    "url": "https://www.nginx.com/resources/glossary/load-balancing/"
+  },
+  {
+    "skill": "Backend Engineering",
+    "title": "RESTful API Design Best Practices",
+    "description": "Standards for creating scalable, intuitive, and highly secure HTTP endpoints.",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design"
+  },
+  {
+    "skill": "Backend Engineering",
+    "title": "Concurrency vs Parallelism in Backend Systems",
+    "description": "A foundational look at thread pools, event loops, and CPU asynchronous workflows.",
+    "url": "https://go.dev/blog/waza-talk"
+  },
+  {
+    "skill": "Backend Engineering",
+    "title": "Database Normalization vs Denormalization",
+    "description": "When to optimize for data integrity versus optimizing for fast read queries.",
+    "url": "https://www.geeksforgeeks.org/difference-between-normalization-and-denormalization/"
+  },
+  {
+    "skill": "Backend Engineering",
+    "title": "Authentication & Authorization (OAuth2 / JWT)",
+    "description": "Securing distributed backend routes using tokens, cookies, and scopes safely.",
+    "url": "https://jwt.io/introduction"
+  },
+  {
+    "skill": "Backend Engineering",
+    "title": "gRPC vs REST for Inter-service Communication",
+    "description": "Evaluating Protocol Buffers and HTTP/2 performance against standard JSON APIs.",
+    "url": "https://grpc.io/docs/what-is-grpc/introduction/"
+  },
+  {
+    "skill": "FastAPI",
+    "title": "FastAPI Official Documentation",
+    "description": "High performance, easy to learn, fast to code, production-ready Python web framework.",
+    "url": "https://fastapi.tiangolo.com/"
+  },
+  {
+    "skill": "FastAPI",
+    "title": "Asynchronous Code in FastAPI (async/await)",
+    "description": "How FastAPI leverages ASGI and Python asyncio to handle high concurrent connection volumes.",
+    "url": "https://fastapi.tiangolo.com/async/"
+  },
+  {
+    "skill": "FastAPI",
+    "title": "Pydantic Data Validation in FastAPI",
+    "description": "Leveraging Python type hints to enforce rigorous input validation and serialization layouts.",
+    "url": "https://docs.pydantic.dev/latest/"
+  },
+  {
+    "skill": "FastAPI",
+    "title": "FastAPI Dependency Injection System",
+    "description": "Structuring clean database sessions, authentication checks, and shared tools efficiently.",
+    "url": "https://fastapi.tiangolo.com/tutorial/dependencies/"
+  },
+  {
+    "skill": "FastAPI",
+    "title": "Deploying FastAPI on Production",
+    "description": "Configuring Gunicorn with Uvicorn workers for high-availability deployments.",
+    "url": "https://fastapi.tiangolo.com/deployment/"
+  },
+  {
+    "skill": "Node.js",
+    "title": "Node.js Documentation & Guides",
+    "description": "JavaScript runtime built on Chrome's V8 engine for building highly scalable network backends.",
+    "url": "https://nodejs.org/en/docs/"
+  },
+  {
+    "skill": "Node.js",
+    "title": "Understanding the Node.js Event Loop",
+    "description": "Deep dive into phases, microtasks, macrotasks, and how non-blocking I/O executes.",
+    "url": "https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick"
+  },
+  {
+    "skill": "Node.js",
+    "title": "Express.js Application Framework",
+    "description": "Fast, unopinionated, minimalist web framework for Node.js backend services.",
+    "url": "https://expressjs.com/"
+  },
+  {
+    "skill": "Node.js",
+    "title": "Node.js Streams API In-Depth",
+    "description": "Handling massive data files and real-time network transfers with minimal memory footprints.",
+    "url": "https://nodejs.org/api/stream.html"
+  },
+  {
+    "skill": "Node.js",
+    "title": "Worker Threads in Node.js",
+    "description": "How to execute heavy CPU-bound computational algorithms using multi-threading layers.",
+    "url": "https://nodejs.org/api/worker_threads.html"
+  },
+  {
+    "skill": "MongoDB",
+    "title": "MongoDB Manual",
+    "description": "Comprehensive document-oriented NoSQL database system structure and operations.",
+    "url": "https://www.mongodb.com/docs/manual/"
+  },
+  {
+    "skill": "MongoDB",
+    "title": "MongoDB Indexing Strategies",
+    "description": "Optimizing search query speeds using single-field, compound, and multikey indexes.",
+    "url": "https://www.mongodb.com/docs/manual/indexes/"
+  },
+  {
+    "skill": "MongoDB",
+    "title": "Aggregation Framework Tutorial",
+    "description": "Data processing pipelines for computing transformed, grouped, and filtered statistics.",
+    "url": "https://www.mongodb.com/docs/manual/aggregation/"
+  },
+  {
+    "skill": "MongoDB",
+    "title": "MongoDB Replication and Sharding",
+    "description": "Scaling databases horizontally through partition keys and fault-tolerant replica sets.",
+    "url": "https://www.mongodb.com/docs/manual/sharding/"
+  },
+  {
+    "skill": "MongoDB",
+    "title": "Mongoose ODM Framework",
+    "description": "Elegant MongoDB object modeling configurations built directly for Node.js environments.",
+    "url": "https://mongoosejs.com/docs/"
+  },
+  {
+    "skill": "PostgreSQL",
+    "title": "PostgreSQL Documentation",
+    "description": "The official manuals for the world's most advanced open-source relational database.",
+    "url": "https://www.postgresql.org/docs/"
+  },
+  {
+    "skill": "PostgreSQL",
+    "title": "Optimizing Queries with EXPLAIN ANALYZE",
+    "description": "How to inspect and debug slow SQL queries by studying the PostgreSQL execution planner.",
+    "url": "https://www.postgresql.org/docs/current/using-explain.html"
+  },
+  {
+    "skill": "PostgreSQL",
+    "title": "PostgreSQL Connection Pooling (PgBouncer)",
+    "description": "Managing high connection counts efficiently without running out of server process limits.",
+    "url": "https://www.pgbouncer.org/"
+  },
+  {
+    "skill": "PostgreSQL",
+    "title": "ACID Compliance and MVCC Mechanics",
+    "description": "How Multi-Version Concurrency Control isolation prevents locking conflicts during transactions.",
+    "url": "https://www.postgresql.org/docs/current/mvcc.html"
+  },
+  {
+    "skill": "PostgreSQL",
+    "title": "pgvector: Vector Search inside PostgreSQL",
+    "description": "An extension allowing you to store and query high-dimensional embeddings directly within SQL.",
+    "url": "https://github.com/pgvector/pgvector"
+  },
+  {
+    "skill": "Redis",
+    "title": "Redis Getting Started Documentation",
+    "description": "An open-source, in-memory data store used as a database, cache, and message broker.",
+    "url": "https://redis.io/docs/latest/"
+  },
+  {
+    "skill": "Redis",
+    "title": "Redis Data Structures Deep Dive",
+    "description": "Mastering Strings, Hashes, Lists, Sets, Sorted Sets, HyperLogLogs, and Bitmaps.",
+    "url": "https://redis.io/docs/latest/develop/data-types/"
+  },
+  {
+    "skill": "Redis",
+    "title": "Redis Caching Strategies & Eviction Policies",
+    "description": "Implementing Cache-Aside, Write-Through, and configuring LRU/LFU memory reclamation.",
+    "url": "https://redis.io/docs/latest/operate/rcm/config/eviction/"
+  },
+  {
+    "skill": "Redis",
+    "title": "Redis Pub/Sub and Streams Architecture",
+    "description": "Building high-throughput, real-time message distribution lines and event-driven backends.",
+    "url": "https://redis.io/docs/latest/develop/interact/pubsub/"
+  },
+  {
+    "skill": "Redis",
+    "title": "Redis Persistence (RDB vs AOF)",
+    "description": "Understanding Redis snapshots versus append-only log structures for disaster recovery.",
+    "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/"
+  },
+  {
+    "skill": "AWS",
+    "title": "AWS Architecture Center",
+    "description": "Cloud computing blueprints, reference architectures, and well-architected framework principles.",
+    "url": "https://aws.amazon.com/architecture/"
+  },
+  {
+    "skill": "AWS",
+    "title": "Amazon EC2 Operational Guide",
+    "description": "Configuring, scaling, and managing secure elastic virtual servers inside AWS VPC infrastructure.",
+    "url": "https://docs.aws.amazon.com/ec2/"
+  },
+  {
+    "skill": "AWS",
+    "title": "Amazon S3 Storage Classes and Lifecycle",
+    "description": "Optimizing object storage expenses using Standard, Infrequent Access, and Glacier configurations.",
+    "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html"
+  },
+  {
+    "skill": "AWS",
+    "title": "AWS Lambda Serverless Development",
+    "description": "Building event-driven, scalable microservices that run functions without server management.",
+    "url": "https://docs.aws.amazon.com/lambda/"
+  },
+  {
+    "skill": "AWS",
+    "title": "Amazon EKS (Elastic Kubernetes Service)",
+    "description": "Deploying, scaling, and managing production-ready Kubernetes clusters natively inside AWS.",
+    "url": "https://docs.aws.amazon.com/eks/"
+  }
+]
