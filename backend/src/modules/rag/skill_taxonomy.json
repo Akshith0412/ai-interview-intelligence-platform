@@ -1,0 +1,15 @@
+[
+  "Java", "Python", "C", "C++", "C#", "JavaScript", "TypeScript", "Ruby", "Go", "Rust", "Swift", "Kotlin", "PHP",
+  "HTML", "CSS", "React", "React Native", "Angular", "Vue.js", "Svelte", "Next.js", "Nuxt.js", "Tailwind CSS",
+  "Node.js", "Express.js", "NestJS", "Django", "Flask", "FastAPI", "Spring Boot", "ASP.NET", "Ruby on Rails",
+  "SQL", "MySQL", "PostgreSQL", "SQLite", "MongoDB", "Redis", "Cassandra", "Elasticsearch", "Neo4j", "DynamoDB",
+  "AWS", "Google Cloud Platform", "Microsoft Azure", "Docker", "Kubernetes", "Terraform", "Ansible", "Jenkins",
+  "Git", "GitHub", "GitLab", "Bitbucket", "CI/CD", "Linux", "Bash", "PowerShell",
+  "Machine Learning", "Deep Learning", "Artificial Intelligence", "Natural Language Processing", "Computer Vision",
+  "Data Science", "Data Engineering", "Data Analytics", "Pandas", "NumPy", "Scikit-Learn", "TensorFlow", "PyTorch",
+  "Keras", "Hugging Face", "LangChain", "OpenAI", "Prompt Engineering", "RAG", "Vector Databases", "Qdrant",
+  "Data Structures", "Algorithms", "Object-Oriented Programming", "Functional Programming", "System Design",
+  "Microservices", "RESTful APIs", "GraphQL", "gRPC", "WebSockets", "Kafka", "RabbitMQ", "ActiveMQ",
+  "Agile Methodologies", "Scrum", "Kanban", "Test-Driven Development", "Behavior-Driven Development", "Unit Testing",
+  "Integration Testing", "End-to-End Testing", "Jest", "Mocha", "Cypress", "Selenium"
+]

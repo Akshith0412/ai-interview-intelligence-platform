@@ -1,39 +1,13 @@
-const model =
-  require("../../config/gemini");
+const { findCandidateSkills } = require("../rag/taxonomySearch");
 
-async function extractSkills(
-  jdText
-) {
+async function extractSkills(jdText) {
+  // Step 1: Semantic search to get candidate skills
+  const candidatePool = await findCandidateSkills(jdText, 0.4);
 
-  const prompt = `
-Extract all technical skills from the following job description.
-
-Return ONLY valid JSON.
-
-{
-  "skills": []
+  // Step 2: Return the skills directly without Gemini verification
+  return {
+    skills: candidatePool
+  };
 }
 
-Job Description:
-
-${jdText}
-`;
-
-  const result =
-    await model.generateContent(
-      prompt
-    );
-
-  const response =
-    result.response.text();
-
-  return JSON.parse(
-    response
-      .replace(/```json|```/g, "")
-      .trim()
-  );
-
-}
-
-module.exports =
-  extractSkills;
+module.exports = extractSkills;

@@ -6,6 +6,7 @@ const protect = require(
 
 const {
   generateInterview,
+  submitAnswer,
   evaluateInterviewAnswer,
 } = require("./interview.controller");
 
@@ -15,6 +16,12 @@ router.post(
   "/generate",
   protect,
   generateInterview
+);
+
+router.post(
+  "/answer",
+  protect,
+  submitAnswer
 );
 
 router.post(

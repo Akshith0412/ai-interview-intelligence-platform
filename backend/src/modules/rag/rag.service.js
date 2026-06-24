@@ -90,11 +90,12 @@ console.log(
   uniqueResources
 );
   const result =
-    await model.generateContent(
-      prompt
-    );
+  await model.generateContent(prompt);
 
-  return result.response.text();
+return {
+  roadmap: result.response.text(),
+  resources: uniqueResources,
+};
 
 }
 

@@ -121,14 +121,10 @@ Retrieved Resources
 * Qdrant Integration
 * Semantic Resource Retrieval
 * Recommendation Engine
-
-### Currently Under Development
-
 * AI Interview Generation Engine
 * Answer Evaluation Framework
 * Personalized Progress Tracking
 * Analytics Dashboard
-* Agentic AI Features
 
 ---
 

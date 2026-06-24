@@ -8,7 +8,19 @@ const interviewSessionSchema =
         ref: "User",
       },
 
+      candidateProfileId: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "CandidateProfile",
+      },
+
+      jobDescriptionId: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "JobDescription",
+      },
+
       targetRole: String,
+
+      missingSkills: [String],
 
       questions: [String],
 
@@ -17,6 +29,9 @@ const interviewSessionSchema =
           question: String,
           answer: String,
           score: Number,
+          strengths: [String],
+          weaknesses: [String],
+          suggestions: [String],
         }
       ]
     },

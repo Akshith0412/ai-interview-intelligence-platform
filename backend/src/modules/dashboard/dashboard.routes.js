@@ -6,6 +6,7 @@ const protect = require(
 
 const {
   getDashboardSummary,
+  getProgress,
 } = require("./dashboard.controller");
 
 const router = express.Router();
@@ -14,6 +15,12 @@ router.get(
   "/summary",
   protect,
   getDashboardSummary
+);
+
+router.get(
+  "/progress",
+  protect,
+  getProgress
 );
 
 module.exports = router;

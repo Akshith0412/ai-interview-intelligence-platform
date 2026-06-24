@@ -11,6 +11,7 @@ const auth =
 
 const {
   uploadJobDescription,
+  getJobDescriptions,
 } = require(
   "./jobDescription.controller"
 );
@@ -19,6 +20,12 @@ router.post(
   "/upload",
   auth,
   uploadJobDescription
+);
+
+router.get(
+  "/list",
+  auth,
+  getJobDescriptions
 );
 
 module.exports =

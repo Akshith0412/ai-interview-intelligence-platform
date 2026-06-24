@@ -62,6 +62,37 @@ const uploadJobDescription =
 
   };
 
+const getJobDescriptions =
+  async (req, res) => {
+
+    try {
+
+      const jobDescriptions =
+        await JobDescription.find({
+          userId: req.user.userId,
+        }).sort({
+          createdAt: -1,
+        });
+
+      res.status(200).json({
+        jobDescriptions,
+      });
+
+    } catch (error) {
+
+      res.status(500).json({
+        message:
+          "Failed to fetch job descriptions",
+
+        error:
+          error.message,
+      });
+
+    }
+
+  };
+
 module.exports = {
   uploadJobDescription,
+  getJobDescriptions,
 };

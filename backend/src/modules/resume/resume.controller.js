@@ -44,6 +44,30 @@ const uploadResume = async (req, res) => {
   }
 };
 
+const getProfile = async (req, res) => {
+  try {
+    const profile =
+      await CandidateProfile.findOne({
+        userId: req.user.userId,
+      });
+
+    if (!profile) {
+      return res.status(404).json({
+        message: "Candidate profile not found",
+      });
+    }
+
+    res.status(200).json({ profile });
+
+  } catch (error) {
+    res.status(500).json({
+      message: "Failed to fetch profile",
+      error: error.message,
+    });
+  }
+};
+
 module.exports = {
   uploadResume,
+  getProfile,
 };

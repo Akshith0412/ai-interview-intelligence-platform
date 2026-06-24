@@ -7,6 +7,7 @@ const upload = require("../../config/multer");
 
 const {
   uploadResume,
+  getProfile,
 } = require("./resume.controller");
 
 const router = express.Router();
@@ -16,6 +17,12 @@ router.post(
   protect,
   upload.single("resume"),
   uploadResume
+);
+
+router.get(
+  "/profile",
+  protect,
+  getProfile
 );
 
 module.exports = router;
